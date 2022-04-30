@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(235, 252, 252);
+  color: rgb(10, 10, 1);
+  margin: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.section .container{
+  max-width:100%;
+}
+
+.header{
+  text-align: center;
+  padding: 1rem;
+  margin-left: 0rem;
+
+}
+
+.header h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+
+.header a{
+  text-decoration: none;
+  padding: 1rem 1rem;
+  margin-top: 7rem;
+}
+
+
+.skill {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.skill h3{
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.skill h1{
+  font-size: 2rem;
+}
+
+.Project {
+  text-align: center;
+  font-size: 1.1rem;
+  display: grid;
+  place-content: center;
+
+}
+
+.experience{
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 1.2rem;
+}
+
+.experience p{
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+
+.eduction{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.table {
+  text-align: center;
+  margin-left: 37rem;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.other{
+  padding: 1rem;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 4rem;
+}
