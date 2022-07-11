@@ -18,6 +18,7 @@ body{
 
 .section .container{
   max-width:100%;
+
 }
 
 .header{
@@ -27,9 +28,13 @@ body{
 
 }
 
+html{
+font-size: 16px;
+}
+
 .header h1{
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 
@@ -42,30 +47,37 @@ body{
 
 .skill {
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
 .skill h3{
-  padding: 2rem;
-  font-size: 1.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
 }
 
 .skill h1{
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .Project {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 0.rem;
   display: grid;
   place-content: center;
+  padding: 1rem;
 
 }
+.Porject_title hr{
+width: 80%;
+}
+
+
 
 .experience{
   text-align: center;
   margin-top: 4rem;
   font-size: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 .experience p{
@@ -74,23 +86,76 @@ body{
 }
 
 
-.eduction{
-  text-align: center;
-  margin-top: 3rem;
+
+.address  {
+text-align: center;
+display: flex;
+justify-content: right;
+margin-top: -3rem;
 }
 
-.table {
-  text-align: center;
-  margin-left: 34rem;
-  font-size: 2rem;
-  padding: 2rem;
+.education_1{
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+.date {
+  display: flex;
+  justify-content: right;
 }
 
 .other{
   padding: 1rem;
 }
 
+.Languages {
+  display: grid;
+  justify-content: center;
+  margin-top: -5.5rem;
+}
+
+.other_Information{
+  display: grid;
+  justify-content: right;
+  place-items: right;
+  margin-top: -5rem;
+}
+
 .footer {
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 1rem;
+}
+
+@media screen (max-width: 768px){
+body{
+  width:60%;
+}
+  
+}
+@media screen (max-width:425px){
+body{
+  width:30%;
+  display:grid;
+  }
+
+  
+.Languages {
+  display: grid;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.other_Information{
+  display: grid;
+  justify-content: right;
+  place-items: right;
+  margin-top: -5rem;
+}
+
+}
+
+
+@media screen (max-width: 1024px){
+
 }
