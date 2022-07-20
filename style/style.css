@@ -14,6 +14,7 @@ body{
   margin: 1rem;
   padding: 1rem;
   width: 100%;
+  overflow:-moz-hidden-unscrollable;
 }
 
 .section .container{
@@ -85,13 +86,15 @@ width: 80%;
   margin-bottom: 4rem;
 }
 
-
+.exp {
+display: block;
+}
 
 .address  {
 text-align: center;
 display: flex;
 justify-content: right;
-margin-top: -3rem;
+  margin-top: -3rem;
 }
 
 .education_1{
@@ -127,35 +130,29 @@ margin-top: -3rem;
   margin-top: 1rem;
 }
 
-@media screen (max-width: 768px){
-body{
-  width:60%;
-}
-  
-}
-@media screen (max-width:425px){
-body{
-  width:30%;
-  display:grid;
-  }
 
   
-.Languages {
-  display: grid;
-  justify-content: center;
+
+@media only screen and  (max-width:425px){
+.exp{
+  text-align: center;
+}
+.address{
+  text-align: center;
   margin-top: 2rem;
+  justify-content: center;
 }
-
+.Languages{
+  margin-top: 2rem;
+  justify-content: left;
+}
 .other_Information{
-  display: grid;
-  justify-content: right;
-  place-items: right;
-  margin-top: -5rem;
+  margin-top: 2rem;
+  justify-content: left;
+}
 }
 
-}
-
-
-@media screen (max-width: 1024px){
+@media only screen and  (max-width:768px){
 
 }
+
